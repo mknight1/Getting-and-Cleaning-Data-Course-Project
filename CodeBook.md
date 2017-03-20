@@ -1,15 +1,15 @@
-#Code Book
-##Description
+# Code Book
+## Description
 The script run_analysis.R performs the 5 steps described in the course project's definition.
 Training and test data is selected on the basis of the features of interest and column bound.  Then the two data sets are row bound.
 Then the activity data is substituted with a meaningful activity name.
 Finally, a new dataset with average measures for each subject and activity type (30 subjects * 6 activities = 180 rows) is generated.
 The output is put into a file (tidy.txt), and provided in this repository.
 
-##Identifiers
+## Identifiers
 subject - The ID of the test subject
 activity - The type of activity performed when the corresponding measurements were taken
-##Measurements
+## Measurements
 tBodyAccMeanX
 tBodyAccMeanY
 tBodyAccMeanZ
@@ -89,7 +89,7 @@ fBodyBodyGyroMagMeanFreq
 fBodyBodyGyroJerkMagMean
 fBodyBodyGyroJerkMagStd
 fBodyBodyGyroJerkMagMeanFreq
-##Activity Labels
+## Activity Labels
 WALKING (value 1): subject was walking during the test
 WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
 WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
